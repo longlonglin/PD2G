@@ -17,7 +17,7 @@ python constructfeaturegraph.py
 
 ```
 ## Run
-All datasets can be found in DGL or pyg open source framework for automatic download.\
+All datasets can be found in DGL or pyg open source framework for automatic download, \ and save to  dataset folder
 Here we take Cora data as an example to show how to run
 ```
 python main.py --dataset cora --T 20 --alpha 0.01 --hidden 256 --lambda_pa 0.7 --lambda_ce_aug 0.1 --lambda_consis 1.5 --num_neighbor 15 --missing_link 0 --missing_feature -1 --train_per_class 5
